@@ -61,6 +61,12 @@ class HomeScreen extends StatelessWidget {
             // 글자만 있는 버튼
             TextButton(
               onPressed: () {},
+              style: TextButton.styleFrom(
+                // 글자 컬러
+                primary: Colors.yellow,
+                // 배경 컬러
+                backgroundColor: Colors.blue,
+              ),
               child: Text('TextButton'),
             ),
           ],

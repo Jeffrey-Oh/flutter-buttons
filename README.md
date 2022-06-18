@@ -5,4 +5,4 @@
 
  - [x] ElevatedButton
  - [x] OutlinedButton
- - [ ] TextButton
+ - [x] TextButton
