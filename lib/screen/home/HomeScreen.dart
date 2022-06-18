@@ -15,6 +15,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            // 배경과 테두리가 있는 버튼
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
@@ -42,12 +43,22 @@ class HomeScreen extends StatelessWidget {
                 "ElevatedButton",
               ),
             ),
+            // 테두리만 있는 버튼
             OutlinedButton(
               onPressed: () {},
+              style: OutlinedButton.styleFrom(
+                // 글자와 애니메이션 컬러
+                primary: Colors.green,
+                // 배경 컬러
+                backgroundColor: Colors.yellow,
+                // 그림자 높이
+                elevation: 10,
+              ),
               child: Text(
                 'OutlinedButton',
               ),
             ),
+            // 글자만 있는 버튼
             TextButton(
               onPressed: () {},
               child: Text('TextButton'),
